@@ -1,0 +1,112 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Add styles to the form container */
+.container {
+  width: 100%;
+  background-color: white;
+
+}
+
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:#00BCFF;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  font-size: medium;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+img {
+ 
+  height: 1077px;
+
+}
+
+
+form {
+ 
+  padding: 7em;
+
+}
+
+
+h1.fw-bold.fs-10 {
+  font-size: 65px;
+  padding-bottom: 1em;
+}
+
+.input.col-6.m-auto.p-5 {
+  font-size: 16px;
+  line-height: 2;
+}
+
+
+
+
+
+
+.img::before {
+  content: url(../images/logo.svg);
+  position: absolute;
+  background-color: #fff;
+  width: 7rem;
+  height: 10rem;
+  top: 2.8rem;
+  left: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img::after {
+  content: url(../images/logo.svg);
+  position: absolute;
+  background-color: #fff;
+  width: 7rem;
+  height: 10rem;
+  top: 2.8rem;
+  left: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
